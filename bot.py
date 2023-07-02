@@ -10,14 +10,14 @@ from movies import movies
 
 load_dotenv()
 
-TOKEN = "6067130720:AAGjD8cDDCiAMXnPnrPjr-wlTaZ-Ls980Zk"
+TOKEN = "TOKEN"
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=TOKEN)
 
 dp = Dispatcher(bot, storage=MemoryStorage())
 
-ADMINS = ['5287842258']
+ADMINS = ['ID']
 
 async def set_default_commands():
     await bot.set_my_commands(
