@@ -43,8 +43,9 @@ async def get_movie_info(callback_query: types.CallbackQuery):
         await bot.send_message(callback_query.message.chat.id, 'No such movie')
     await bot.send_photo(callback_query.message.chat.id, movies[callback_query.data]['photo'])
     desc = movies[callback_query.data]['description']
+    rate = movies[callback_query.data]['rating']
     #url = movies[callback_query.data]['url']
-    message = f"{callback_query.data}\n{desc}\n"
+    message = f"Title: {callback_query.data}\nAbout: {desc}\nRating: {rate}"
     await bot.send_message(callback_query.message.chat.id, message, parse_mode='html')
 
 
