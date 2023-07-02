@@ -1,7 +1,7 @@
 # Projects
 Projects done with GOIT
 
-This is a Telegram bot that can show movies and add any of those that you want
+This is a Telegram bot that can show movies and add any of those that you want.
 For adding an image, use a link to send it
 
 1. Make a bot using @BotFather and name it how you want
