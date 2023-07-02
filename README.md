@@ -1,4 +1,4 @@
-# Projects
+# Telegram Movie Bot
 Projects done with GOIT
 
 This is a Telegram bot that can show movies and add any of those that you want.
